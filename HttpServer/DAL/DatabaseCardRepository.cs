@@ -342,7 +342,7 @@ namespace HttpServer.DAL
             Card card;
             if (cardType == CardType.Spell)
             {
-                card = new Spell(Convert.ToString(record["id"]), Element + Convert.ToString(record["name"]), Convert.ToInt32(record["damage"]));
+                card = new Spell(Convert.ToString(record["id"]), Convert.ToString(record["name"]), Convert.ToInt32(record["damage"]));
             }
             else
             {

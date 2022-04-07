@@ -27,15 +27,15 @@ namespace HttpServer
             log = username1 + ": " + card1.GetNameWithDamage() + " vs " + username2 + ": " + card2.GetNameWithDamage() + " => " + card1.Damage + " VS " + card2.Damage + " -> " + damage1 + " VS " + damage2 + " => ";
             if (damage1 > damage2)
             {
-                log += card1.Name + "wins";    
+                log += card1.Name + " wins";    
             }
             else if(damage2 > damage1)
             {
-                log += card2.Name + "wins";
+                log += card2.Name + " wins";
             }
             else
             {
-                log += "Draw (no action)\n";
+                log += "Draw (no action)";
             }
             this.log.Add(log);
         }
@@ -43,15 +43,16 @@ namespace HttpServer
         public void AddWinner(string username)
         {
             string log;
-            log = "!-!-!-!-!-!-!-!\n";
+            log = "!-!-!-!-!-!-!-!";
             if(username != "draw")
             {
-                log += "Congratulations " + username + " you won\n";
+                log += "Congratulations " + username + " you won";
             }
             else
             {
-                log += "The game ended in a draw, congrats to both of you\n";
+                log += "The game ended in a draw, congrats to both of you";
             }
+            this.log.Add(log);
         }
 
         public List<string> GetLog()

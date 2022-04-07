@@ -58,6 +58,7 @@ namespace HttpServer
             router.AddProtectedRoute(HttpMethod.Put, "/deck", (r, p) => new ConfigureMainDeckCommand(manager, Deserialize<List<string>>(r.Payload)));
             router.AddProtectedRoute(HttpMethod.Get, "/score", (r, p) => new GetScoreboardCommand(manager));
             router.AddProtectedRoute(HttpMethod.Post, "/battles", (r, p) => new BattleCommand(manager, battleManager));
+            router.AddProtectedRoute(HttpMethod.Get, "/stats", (r, p) => new GetStatsCommand(manager));
 
             router.AddProtectedRoute(HttpMethod.Get, "/messages", (r, p) => new ListMessagesCommand(messageManager));
             router.AddProtectedRoute(HttpMethod.Post, "/messages", (r, p) => new AddMessageCommand(messageManager, r.Payload));
