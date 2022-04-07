@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "99d4fbc8-fbea-4776-81bf-e301042065e2": {
+      "ProjectGuid": "99d4fbc8-fbea-4776-81bf-e301042065e2",
+      "DisplayName": "HttpServer",
+      "ColorIndex": 0
+    },
+    "376459bd-0a14-43a6-b267-986c6364526d": {
+      "ProjectGuid": "376459bd-0a14-43a6-b267-986c6364526d",
+      "DisplayName": "HttpServer.Test",
+      "ColorIndex": 1
+    },
+    "4c2c847f-2557-4afd-b558-fe9e2c846dc6": {
+      "ProjectGuid": "4c2c847f-2557-4afd-b558-fe9e2c846dc6",
+      "DisplayName": "HttpServer.Core",
+      "ColorIndex": 2
+    },
+    "d9cc0028-a123-4e68-bf2d-6ecee72aefc1": {
+      "ProjectGuid": "d9cc0028-a123-4e68-bf2d-6ecee72aefc1",
+      "DisplayName": "MTCG",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

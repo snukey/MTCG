@@ -1,0 +1,15 @@
+D:\monstergame\MTCG\MTCG\bin\Debug\net6.0\MTCG.exe
+D:\monstergame\MTCG\MTCG\bin\Debug\net6.0\MTCG.deps.json
+D:\monstergame\MTCG\MTCG\bin\Debug\net6.0\MTCG.runtimeconfig.json
+D:\monstergame\MTCG\MTCG\bin\Debug\net6.0\MTCG.dll
+D:\monstergame\MTCG\MTCG\bin\Debug\net6.0\ref\MTCG.dll
+D:\monstergame\MTCG\MTCG\bin\Debug\net6.0\MTCG.pdb
+D:\monstergame\MTCG\MTCG\obj\Debug\net6.0\MTCG.csproj.AssemblyReference.cache
+D:\monstergame\MTCG\MTCG\obj\Debug\net6.0\MTCG.GeneratedMSBuildEditorConfig.editorconfig
+D:\monstergame\MTCG\MTCG\obj\Debug\net6.0\MTCG.AssemblyInfoInputs.cache
+D:\monstergame\MTCG\MTCG\obj\Debug\net6.0\MTCG.AssemblyInfo.cs
+D:\monstergame\MTCG\MTCG\obj\Debug\net6.0\MTCG.csproj.CoreCompileInputs.cache
+D:\monstergame\MTCG\MTCG\obj\Debug\net6.0\MTCG.dll
+D:\monstergame\MTCG\MTCG\obj\Debug\net6.0\ref\MTCG.dll
+D:\monstergame\MTCG\MTCG\obj\Debug\net6.0\MTCG.pdb
+D:\monstergame\MTCG\MTCG\obj\Debug\net6.0\MTCG.genruntimeconfig.cache

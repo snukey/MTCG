@@ -1,0 +1,15 @@
+D:\monstergame\MTCG\HttpServer.Core\obj\Debug\net6.0\HttpServer.Core.csproj.AssemblyReference.cache
+D:\monstergame\MTCG\HttpServer.Core\obj\Debug\net6.0\HttpServer.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\monstergame\MTCG\HttpServer.Core\obj\Debug\net6.0\HttpServer.Core.AssemblyInfoInputs.cache
+D:\monstergame\MTCG\HttpServer.Core\obj\Debug\net6.0\HttpServer.Core.AssemblyInfo.cs
+D:\monstergame\MTCG\HttpServer.Core\obj\Debug\net6.0\HttpServer.Core.csproj.CoreCompileInputs.cache
+D:\monstergame\MTCG\HttpServer.Core\bin\Debug\net6.0\HttpServer.Core.exe
+D:\monstergame\MTCG\HttpServer.Core\bin\Debug\net6.0\HttpServer.Core.deps.json
+D:\monstergame\MTCG\HttpServer.Core\bin\Debug\net6.0\HttpServer.Core.runtimeconfig.json
+D:\monstergame\MTCG\HttpServer.Core\bin\Debug\net6.0\HttpServer.Core.dll
+D:\monstergame\MTCG\HttpServer.Core\bin\Debug\net6.0\ref\HttpServer.Core.dll
+D:\monstergame\MTCG\HttpServer.Core\bin\Debug\net6.0\HttpServer.Core.pdb
+D:\monstergame\MTCG\HttpServer.Core\obj\Debug\net6.0\HttpServer.Core.dll
+D:\monstergame\MTCG\HttpServer.Core\obj\Debug\net6.0\ref\HttpServer.Core.dll
+D:\monstergame\MTCG\HttpServer.Core\obj\Debug\net6.0\HttpServer.Core.pdb
+D:\monstergame\MTCG\HttpServer.Core\obj\Debug\net6.0\HttpServer.Core.genruntimeconfig.cache
