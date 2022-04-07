@@ -1,0 +1,35 @@
+# MTCG-Protokol
+## Design
+### Database
+
+![](https://i.imgur.com/fUcoJEC.png)
+
+### Request Handling
+
+Requests are first sent to the server, which has one route for each kind of request. 
+Routes are either public or protected, depending on if a user is needed for the execution of a request. 
+Each route couples a request with a command that is executed by the server.
+These commands use the Manager or BattleManager to execute various functions and catch exceptions that are thrown during the execution of a function. 
+The manager class itself further calls repository funcions which build the bridge between the database and the rest of the programm. 
+The BattleManager is responsible for establishing a battle and calls the Game class to execute the game and acquiring the logs. 
+
+## Lessons learned
+
+During my work on this project I learned how to create a rest based HTTP server, which uses a PostgreSQL database.
+I also learned how a server like this can be structured into multiple parts which all work together to service on request (Route->Command->Managers->Repositories). 
+Furthermore, I learned how unit tests can help immensely while developing and expanded my knowledge about C# and PostgreSQL.
+
+## Unit Testing
+
+Unit testing is done with the NUnit-Framework. 
+I concentrated my unit testing on the battle logic, because that’s one of the most important parts in a game and because a lot is happening behind the scenes. 
+Because of that I tried to cover as many edge cases as possible, in order to have the best test coverage possible.
+
+## Unique Feature
+
+For my unique feature I added the void Element. 
+This makes monsters or spells that lose disappear from the battlefield if they lose a fight, therefore not turning them against their player.
+
+## Link to git
+
+https://github.com/snukey/MTCG.git
